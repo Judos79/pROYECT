@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #85c50e60;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #16fa16;
+    padding: 10px 20px;
+    text-align: center;
+    
+}
+
+/* Estilos específicos para las secciones */
+.featured {
+    margin-bottom: 0px;
+    border-radius: 10%;
+    width: 300px;
+    color: rgb(13, 14, 14);
+    margin: 2px 10px;
+}
+
+.featured-content {
+    display:inline-block /* Utilizando flexbox para alinear elementos */
+}
+
+.featured img {
+    margin-right: 22px; /* Espacio entre la imagen y el texto */
+}
+
+.featured-text {
+    flex-grow: 1; /* Para que ocupe todo el espacio disponible */
+    max-width: calc(10px - px); /* Resta el ancho de la imagen para evitar que el texto se solape */
+}
+
+
+
+
+
+.categories {
+    margin-bottom: 20px;
+    
+}
+
+/* Puedes continuar añadiendo más estilos según sea necesario */
+
+
+
+.body1 {
+      background-color: #312e2e;
+      color: white;
+}
+
+h1 {
+    font-size: 8em;
+    text-align: center;
+    background-color: #16ccfa;
+    background-position: no-repeat;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+
+}
+
+
+
+
+.link {
+    color: #6fe8fd;
+}
+
+
+
